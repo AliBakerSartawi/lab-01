@@ -50,3 +50,53 @@ header {
   background-color: #e6ebeb;
   color: #002424;
 }
+
+/* desktop responsive */
+@media (min-width: 768px) {
+
+  body,
+  html {
+    background-color: #4e0404;
+    color: whitesmoke;
+  }
+
+  header {
+    background-color: #8d021f;
+  }
+
+  #b {
+    background-color: #5e1914;
+  }
+
+  #c {
+    background-color: #b80f0a;
+  }
+
+  #d {
+    background-color: #bf0a30;
+  }
+
+  #e {
+    background-color: #df2800;
+  }
+
+  #f {
+    background-color: #ca3433;
+  }
+
+  #g {
+    background-color: #d21f3c;
+    color: whitesmoke;
+  } 
+
+  #h {
+    background-color: #b43757;
+    color: whitesmoke;
+  }
+
+  #i {
+    background-color: #ea3c53;
+    color: whitesmoke;
+  }
+
+}
