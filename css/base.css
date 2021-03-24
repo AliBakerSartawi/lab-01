@@ -1,12 +1,5 @@
 body,
 html {
-  box-sizing: border-box;
-  /* height: 100%; */
-  width: 480px;
-
-  margin-left: auto;
-  margin-right: auto;
-
   background-color: #000505;
   color: whitesmoke;
   text-align: center;
@@ -51,8 +44,8 @@ header {
   color: #002424;
 }
 
-/* desktop responsive */
-@media (min-width: 768px) {
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1200px) {
 
   body,
   html {
@@ -96,6 +89,55 @@ header {
 
   #i {
     background-color: #ea3c53;
+    color: whitesmoke;
+  }
+
+}
+
+/* tablet responsive */
+@media (min-width: 1200px) {
+
+  body,
+  html {
+    color: whitesmoke;
+  }
+
+  header {
+    background-color: #008080;
+  }
+
+  #b {
+    background-color: #20b2aa;
+  }
+
+  #c {
+    background-color: #00cc99;
+  }
+
+  #d {
+    background-color: #2099a7;
+  }
+
+  #e {
+    background-color: #0cb9a5;
+  }
+
+  #f {
+    background-color: #30ba8f;
+  }
+
+  #g {
+    background-color: #43b3ae;
+    color: whitesmoke;
+  } 
+
+  #h {
+    background-color: #319177;
+    color: whitesmoke;
+  }
+
+  #i {
+    background-color: #01866c;
     color: whitesmoke;
   }
 
